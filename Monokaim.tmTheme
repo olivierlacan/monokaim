@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Monokai</string>
+	<string>Monokaim</string>
+	<key>author</key>
+	<string>Olivier Lacan</string>
+	<key>comment</key>
+	<string>Based on Monokai by Wimer Hazenberg</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -379,16 +383,17 @@
 				<string>#E6DB74</string>
 			</dict>
 		</dict>
+
 		<!-- Markdown Syntax -->
 		<dict>
 			<key>name</key>
-			<string>Markup: Heading</string>
+			<string>Markdown: Heading</string>
 			<key>scope</key>
 			<string>markup.heading, markup.heading entity</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#632D04</string>
+				<string>#FF9900</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -397,7 +402,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: List</string>
+			<string>Markdown: List</string>
 			<key>scope</key>
 			<string>markup.list</string>
 			<key>settings</key>
@@ -408,7 +413,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Raw</string>
+			<string>Markdown: Raw (code blocks)</string>
 			<key>scope</key>
 			<string>markup.raw</string>
 			<key>settings</key>
@@ -423,7 +428,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Comment</string>
+			<string>Markdown: Comment</string>
 			<key>scope</key>
 			<string>markup comment</string>
 			<key>settings</key>
@@ -436,7 +441,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: Separator</string>
+			<string>Markdown: Separator</string>
 			<key>scope</key>
 			<string>meta.separator</string>
 			<key>settings</key>

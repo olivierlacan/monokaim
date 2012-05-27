@@ -1,10 +1,10 @@
-molokaim
+monokaim
 ========
 
-An improved Molokai theme for Sublime Text 2 &amp; TextMate
+An improved Monokai theme for Sublime Text 2 & TextMate
 
 ## Motivation
-The Molokai theme currently (May 27th, 2012) shipped with Sublime Text 2 is nice but doesn't include some essential syntax highlighting from Markdown. I love Markdown and write it virtually every day, and I'm tired of seeing it so poorly rendered.
+The Monokai theme currently (May 27th, 2012) shipped with Sublime Text 2 is nice but doesn't include some essential syntax highlighting from Markdown. I love Markdown and write it virtually every day, and I'm tired of seeing it so poorly rendered.
 
 ## Realization
 TextMate themes are horrendous, using XML to declare something as basic is a painful waste of markup, it would almost make Sublime's JSON settings look pithy. So the least people could do is add comments to make that XML soup a little more palatable.
