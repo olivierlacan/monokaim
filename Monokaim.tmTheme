@@ -384,72 +384,82 @@
 			</dict>
 		</dict>
 
-		<!-- Markdown Syntax -->
+		<!-- === Markdown Syntax === -->
 		<dict>
 			<key>name</key>
-			<string>Markdown: Heading</string>
-			<key>scope</key>
-			<string>markup.heading, markup.heading entity</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FF9900</string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FEDCC5</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markdown: List</string>
+			<string>Markup: List</string>
 			<key>scope</key>
 			<string>markup.list</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E1D4B9</string>
+				<string>#C6DDD5</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Raw (code blocks)</string>
+			<string>Markup: List bullet</string>
 			<key>scope</key>
-			<string>markup.raw</string>
+			<string>punctuation.definition.list_item.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#B1B3BA08</string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#578BB3</string>
+				<string>#4C649D</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Comment</string>
+			<string>Markup: Heading Bullet</string>
 			<key>scope</key>
-			<string>markup comment</string>
+			<string>markup.heading</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#F67B37</string>
+				<string>#344861</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Separator</string>
+			<string>Markup: Heading name</string>
 			<key>scope</key>
-			<string>meta.separator</string>
+			<string>entity.name.section.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#242424</string>
 				<key>foreground</key>
-				<string>#60A633</string>
+				<string>#CEA166</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Link</string>
+			<key>scope</key>
+			<string>meta.link.inline.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8EA5C8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Link (title)</string>
+			<key>scope</key>
+			<string>string.other.link.title.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D8AB4A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Block</string>
+			<key>scope</key>
+			<string>markup.raw.block.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6B6B6B</string>
 			</dict>
 		</dict>
 		<!-- End Markdown syntax -->
